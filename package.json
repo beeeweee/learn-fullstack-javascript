@@ -1,10 +1,10 @@
 {
   "name": "fulljs",
   "version": "1.0.0",
-  "description": "learningi fullstack javascrip development",
+  "description": "learningi fullstack javascript development",
   "main": "index.js",
   "scripts": {
-    "start": "nodmon --exec babel-node server.js --ignore public/",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd"
   },
   "repository": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/beeeweee/learn-fullstack-javascript.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/beeeweee/learn-fullstack-javascript/issues"
   },
@@ -33,6 +33,7 @@
     "@babel/node": "^7.16.8",
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.4",
     "nodemon": "^2.0.15",
     "webpack": "^5.70.0",
